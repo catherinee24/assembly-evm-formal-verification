@@ -1,0 +1,2 @@
+# Rewriting solidity smart contracts in Huff
+Rewriting in huff teaches how smart contracts work a the lowest level and provides deeper understanding of EVM Opcodes. Because the huff and solidity contracts should be identical you can write one test suite and apply it to both, known as a differential testing. 
