@@ -7,7 +7,7 @@ In the EVM (Ethereum Virtual Machine), **memory** and **storage** are two places
 - **Typical Use**: It’s used when you need to handle temporary data or perform calculations that don’t need to be stored after the contract finishes execution.
 
 ### 2. **Storage**
-- **Permanent and Persistent**: Storage is permanent and lasts forever (or until you modify it). Data in storage remains available between different transactions.
+- **Permanent and Persistent**:: Storage is permanent and lasts forever (or until you modify it). Data in storage remains available between different transactions.
 - **Slower and More Expensive**: Saving and reading data from storage costs more gas because it’s slower, but what you store there persists.
 - **Typical Use**: It’s used to store important long-term data, like account balances, settings, or critical information that the contract needs to remember.
 
