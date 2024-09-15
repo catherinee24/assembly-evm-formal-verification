@@ -1,6 +1,6 @@
 ### Easy Explanation of **PUSH1** and **ADD** Opcodes in the EVM
 
-In the **Ethereum Virtual Machine (EVM)**, opcodes are like small commands that tell the machine what to do with data. Here’s a simple explanation of two important opcodes, **PUSH1** and **ADD**, with a real-life example.
+In the **Ethereum Virtual Machine (EVM)**, opcodes are like small commands that tell the machine what to do with data. Here’s a simple explanation of two important opcodes, **PUSH1** and **ADD**, with a real-life example..
 
 ---
 
