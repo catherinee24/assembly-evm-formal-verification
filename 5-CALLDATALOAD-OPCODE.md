@@ -36,7 +36,10 @@ And you use **CALLDATALOAD** with an **offset 0x00**, it will load the first **3
 ```text
 0x1234567890abcdef1234567890abcdef00000000000000000000000000000001
 ```
+---
 ### Summary:
 **CALLDATALOAD** is like asking someone to read a specific part of a document (the data sent in the transaction). It loads a block of 32 bytes from a specific position (**offset**) in the transaction data and puts it on the stack for the program to use.
 
 - **Real-life Example:** In a grocery store, **CALLDATALOAD** is like telling the cashier: “Start reading from line 2 of the receipt,” and the cashier will see "Bread."
+
+```````
