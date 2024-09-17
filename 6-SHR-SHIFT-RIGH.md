@@ -64,6 +64,10 @@ Para obtener el selector de función del siguiente calldata:
 0xe026c0170000000000000000000000000000000000000000000000000000000000000001
 ```
 El calldata contiene el selector de función en los primeros **4 bytes**. El selector es **0xe026c017**.
+```bash 
+cast --to-base 0xe026c017 bin
+0b11100000001001101100000000010111 //32 bits 
+```
 
 #### ¿Cómo lo extraemos?
 
