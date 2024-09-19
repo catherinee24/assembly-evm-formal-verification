@@ -9,6 +9,14 @@
     calldataload  //[calldataload]
     0xe0
     shr
-    0x386ac13b // Function selector -> updateHorsesNumber(uint256)
+    0x386ac13b    // Function selector -> updateHorsesNumber(uint256)
     eq
+    updateJump    //[updateHorsesNumberProgramCounter, true/false]
+    jumpi
+
+
+    updateJump:
+        SET_NUMBER_OF_HORSES()
 }
+
+#define macro SET_NUMBER_OF_HORSES() = takes(0) returns(0) {}
