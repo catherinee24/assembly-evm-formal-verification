@@ -3,7 +3,7 @@
 // Asi es como definimos un macro en Huff que es basicamente una funcion 
 // the takes(0) y el returns(0) se refiere 
 //bytecode at the moment -> 60008060093d393df3 -> contract creation bytecode
-//bytecode after operations -> 60058060093d393df35f3560e01c
+//bytecode after operations -> 60058060093d393df35f3560e01c 
 #define macro MAIN() = takes(0) returns(0) {
     0x00          //[0]
     calldataload  //[calldataload]

@@ -1,6 +1,7 @@
 ## Explicación del Calldata y Opcodes
 
 ### Calldata: `60058060093d393df35f3560e01c`
+- Contract Creation -> **60058060093d393df3**5f3560e01c 
 
 ### Paso a paso de los Opcodes y el Stack
 
