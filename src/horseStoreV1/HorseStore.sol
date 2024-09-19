@@ -12,4 +12,5 @@ contract HorseStore {
     function readNumberOfHorses() public view returns (uint256) {
         return numberOfHorses;
     }
+    
 }
