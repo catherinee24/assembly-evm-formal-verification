@@ -8,6 +8,7 @@ contract HorseStore {
         numberOfHorses = newHorsesNumber;
     }
 
+    //0xe026c017
     function readNumberOfHorses() public view returns (uint256) {
         return numberOfHorses;
     }

@@ -9,4 +9,6 @@
     calldataload  //[calldataload]
     0xe0
     shr
+    0x386ac13b // Function selector -> updateHorsesNumber(uint256)
+    eq
 }
